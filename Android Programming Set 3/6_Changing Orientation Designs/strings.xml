@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Pokemon</string>
+
+    <string-array name="pokemon_name">
+        <item>Pikachu</item>
+        <item>Mew</item>
+        <item>Charmander</item>
+        <item>Bulbasaur</item>
+        <item>Squirtle</item>
+        <item>Meowth</item>
+    </string-array>
+
+    <string-array name="pokemon_desciption">
+        <item>Pikachu, the Mouse Pokémon. It can generate electric attacks from the electric pouches located in both of its cheeks.</item>
+        <item>So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.</item>
+        <item>A flame burns on the tip of its tail from birth. It is said that a Charmander dies if its flame ever goes out.</item>
+        <item>Bulbasaur, the Seed Pokémon. A young Bulbasaur uses the nutrients from its seed for the energy it needs to grow.</item>
+        <item>Squirtle, the Tiny Turtle Pokémon. During battle, Squirtle hides in its shell that sprays water at its opponent whenever it can.</item>
+        <item>Meowth, the Scratch Cat Pokémon. When it sees round objects, it plays and loses track of time.</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

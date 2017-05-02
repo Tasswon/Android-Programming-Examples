@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="3"
+    android:columnCount="2"
+    android:padding="5dp"
+    tools:context="ca.algomau.pokemon.MainActivity">
+
+    <ImageButton
+        android:id="@+id/btnPikachu"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:scaleType="fitXY"
+        android:src="@drawable/pikachu"
+        android:onClick="buttonOnClick"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <ImageButton
+        android:id="@+id/btnMew"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:scaleType="fitXY"
+        android:src="@drawable/mew"
+        android:onClick="buttonOnClick"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <ImageButton
+        android:id="@+id/btnCharmander"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:scaleType="fitXY"
+        android:src="@drawable/charmander"
+        android:onClick="buttonOnClick"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <ImageButton
+        android:id="@+id/btnBulbasaur"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:scaleType="fitXY"
+        android:src="@drawable/bulbasaur"
+        android:onClick="buttonOnClick"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <ImageButton
+        android:id="@+id/btnSquirtle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:scaleType="fitXY"
+        android:src="@drawable/squirtle"
+        android:onClick="buttonOnClick"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <ImageButton
+        android:id="@+id/btnMeowth"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:scaleType="fitXY"
+        android:src="@drawable/meowth"
+        android:onClick="buttonOnClick"
+        style="?android:attr/borderlessButtonStyle"/>
+
+
+</GridLayout>

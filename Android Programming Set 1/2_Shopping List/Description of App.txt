@@ -1,0 +1,5 @@
+Create a shopping list app that allows the user to add and remove items from a shopping list.  
+Your app should have an EditText, a ListView and an ADD button. Initially, the list is empty. 
+After the user enters an item in the EditText and clicks the ADD button, the new item will be 
+added to the bottom of the list.  The user should also be able to remove an item from the list 
+by long clicking and holding the item.   (Hint: Use setOnItemLongClickListener method). 

@@ -1,0 +1,11 @@
+Create an app with 4 Buttons at the top and 4 TextViews below as shown in the following screen shots. 
+In colors.xml, define any 4 colors you like using the RGB model. These four colors will be used as 
+background for the Buttons and TextViews.  Whenever a Button is clicked, a counter for that color 
+should be increased by one and the value of the counter should be updated in the appropriate TextView.
+
+Implement the onSaveInstanceState and onRestoreInstanceState methods to retain the activity instance 
+state (the color counters) after the screen is rotated. 
+
+Note that the layout of the Buttons and TextViews must be the same as the screen shots, but you can 
+define your own 4 colors instead of using red, green, white and blue. To center text in a TextView, 
+just set the attribute: android:gravity = "center" for the TextView.  

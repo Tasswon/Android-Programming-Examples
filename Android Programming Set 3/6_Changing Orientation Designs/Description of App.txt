@@ -1,0 +1,5 @@
+Create an app that contains a set of ImageButtons using any images you prefer.
+(a) In portrait orientation, when an ImageButton is clicked, the description about the image is shown 
+in a new activity. 
+(b) In landscape orientation, when an ImageButton is clicked, the image description is shown in a 
+fragment in the same activity. The fragment can be added statically or programmatically.

@@ -1,0 +1,6 @@
+Create a shopping app that shows a list of merchandise items for the user to buy. Each item has an 
+image, price and quantity to purchase. When the CheckOut Button is clicked, calculate and show the 
+total cost. Generate all the GUI widgets in the Java code instead of the XML layout file.  (You can 
+create a layout file for one merchandise item including only an ImageView, a TextView and an EditText 
+if you want to use LayoutInflator. However, do not create a layout file that includes all the widgets 
+in the user interface.)

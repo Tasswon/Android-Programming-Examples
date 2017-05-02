@@ -1,0 +1,11 @@
+Create a multiple activity app that students can use to check their midterm exam mark. All the marks 
+are stored in a raw text file called exammarks.txt. Each line of the file contains the name, ID, and 
+mark of a student. The main activity has two EditTexts, one to enter the student name and the other 
+to enter the student ID. After the student enters the name and ID and clicks the SUBMIT Button, the 
+activity should check the raw file. If the name and ID are correct, the student’s midterm exam mark 
+will be displayed in the second activity. 
+
+If the student name cannot be found in the file, print a Toast message “Student name does not exist”; 
+if the student ID is not correct, show a Toast message “Wrong student ID”.  If the student clicks the 
+SUBMIT Button without entering a name and/or ID, a Toast message will be displayed to ask the student
+to enter the student name/ID. 
